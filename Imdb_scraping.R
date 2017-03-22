@@ -7,3 +7,9 @@ type<-  url %>% html_nodes(" .subtext .itemprop") %>% html_text()
 type<- 
 
 data<-data.frame(title,rating,num_users,type)
+
+
+
+
+
+
